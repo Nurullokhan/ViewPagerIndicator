@@ -39,7 +39,6 @@ class MainActivity : AppCompatActivity() {
             }
         })
 
-        6
         bindingA.skipBtn.setOnClickListener {
             if (bindingA.viewPager.currentItem + 1 < viewPagerAdapterIndicator.itemCount) {
                 bindingA.viewPager.currentItem = bindingA.viewPager.currentItem + 1
